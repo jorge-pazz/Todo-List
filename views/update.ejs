@@ -1,0 +1,58 @@
+<%- include('partials/header.ejs') %>    
+
+    <div id="main">
+
+        <div id="container">
+
+            <div id="container_form">
+                
+                <h1>To-do List - Atualização</h1>
+
+                
+
+                <form method="POST" action="/updateSave">                
+                   
+                    <% tasks.forEach((task)=>{ %>                   
+                    
+                     <input type="hidden" name="id" value="<%= task.id %>"> 
+                     
+                     <% if(task.concluido == 1){ %>
+
+                        <p class="correct">
+                            <input type="checkbox" name="done" value="1" checked class="correct"> 
+                        Tarefa feita?</p>
+
+                     <%  } else{ %>
+
+                        <p class="correct">
+                            <input type="checkbox" name="done" value="0" class="correct"> 
+                        Tarefa feita?</p>
+
+                    <% } %>   
+                    
+                    <input type="text" name="nome"  value="<%= task.nome %>">
+
+                    <% }) %>
+
+                    <input type="submit" class="btn" value="Atualizar">
+
+                </form>
+          
+            </div><!-- FECHAMNETO DA DIV CONTAINER FORM -->
+
+
+            <div id="container_tasks">
+                
+
+
+                
+
+
+  
+            </div><!-- FECHAMNETO DA DIV CONTAINER TASKS -->
+          
+        </div><!-- FECHAMNETO DA DIV CONTAINER -->
+
+    </div><!-- FECHAMNETO DA DIV MAin -->
+
+<%-  include('partials/footer.ejs') %>

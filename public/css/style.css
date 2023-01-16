@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #6C7A89;
+    font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (min-width: 800px){ 
+
+
+    #main{
+        width: 100vw;
+        height: 100vh;
+        background: #6C7A89;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #container{
+        width: 600px;        
+        border-radius: 8px ;
+        background: rgb(77, 9, 204);
+    }
+
+    #container h1{
+        width: 80%;
+        padding: 10px;
+        color: #FFF;
+      
+        
+        
+    }
+
+    #container form{
+        width: 96.0%;
+        padding: 10px;        
+      
+    }
+
+    #container input{
+        width: 80%;
+        padding: 10px;        
+        margin-top: 30px;
+        border: 0;
+        border-radius: 8px ;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #FFF;
+    }
+
+    #container .btn{
+        width: 15%;
+        padding: 10px;        
+        margin-top: 30px;
+        float: right; 
+        border: 0;
+        border-radius: 8px ;
+        cursor: pointer;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FFF;
+        background-color:rgb(32, 2, 114)
+    }
+
+    #container input{
+        width: 80%;
+        padding: 10px;        
+        margin-top: 30px;
+        border: 0;
+        border-radius: 8px ;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #FFF;
+    }
+
+    #container .btn{
+        width: 15%;
+        padding: 10px;        
+        margin-top: 30px;
+        float: right; 
+        border: 0;
+        border-radius: 8px ;
+        cursor: pointer;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FFF;
+        background-color:rgb(32, 2, 114);
+    }
+
+    #container .btn:hover{
+        background-color:rgb(21, 2, 73);
+    }
+
+    
+
+
+    #container_tasks{
+    width:96.6%;    
+  
+    
+    }
+
+
+    #container_tasks li{
+        width: 100%;
+        list-style: none;
+        float: left;
+        padding: 10px; 
+        border-bottom: 1px solid #ccc;
+        background-color: #FFF;
+    }
+
+    #container_tasks .checkbox {
+        float: left;
+        width: 5%;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #container_form .correct{
+
+        width: auto;        
+        margin: 0;
+        padding: 0;
+        color:rgb(255, 255, 255);
+        
+    }
+
+
+    #container_tasks p{
+        width: 50%;
+        float: left;
+        margin-top: 10px;
+        
+        
+    }
+
+    #container_tasks button{
+        width: auto;
+        padding: 2px 6px;      
+        color: #FFF;
+        margin-right: 5px;
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        float: right;  
+        
+        background-color: rgb(23, 125, 221);
+    }
+
+    #container_tasks button:hover{
+        background-color: rgb(47, 148, 241);
+    }
+
+    #container .delete{
+
+        background-color: rgb(221, 39, 39);
+    }
+
+    #container .delete:hover{
+        background-color: rgb(245, 78, 78);
+    }
+
+    #container span{
+        width: auto;
+        float: right;
+    }
+
+
+}/*END*/
+
+/*==========================================*/
+/*==========================================*/
+/*==========================================*/
+
+@media screen and (min-width: 641px) and (max-width: 799px){ 
+
+
+    #main{
+        width: 100vw;
+        height: 100vh;
+        background: #6C7A89;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #container{
+        width: 600px;        
+        border-radius: 8px ;
+        background: rgb(77, 9, 204);
+    }
+
+    #container h1{
+        width: 80%;
+        padding: 10px;
+        color: #FFF;
+      
+        
+        
+    }
+    #container form{
+        width: 96.0%;
+        padding: 10px;        
+      
+    }
+
+    #container input{
+        width: 80%;
+        padding: 10px;        
+        margin-top: 30px;
+        border: 0;
+        border-radius: 8px ;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #FFF;
+    }
+
+    #container .btn{
+        width: 15%;
+        padding: 10px;        
+        margin-top: 30px;
+        float: right; 
+        border: 0;
+        border-radius: 8px ;
+        cursor: pointer;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FFF;
+        background-color:rgb(32, 2, 114)
+    }
+
+    #container input{
+        width: 80%;
+        padding: 10px;        
+        margin-top: 30px;
+        border: 0;
+        border-radius: 8px ;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #FFF;
+    }
+
+    #container .btn{
+        width: 15%;
+        padding: 10px;        
+        margin-top: 30px;
+        float: right; 
+        border: 0;
+        border-radius: 8px ;
+        cursor: pointer;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FFF;
+        background-color:rgb(32, 2, 114);
+    }
+
+    #container .btn:hover{
+        background-color:rgb(21, 2, 73);
+    }
+
+    
+
+
+    #container_tasks{
+    width:96.6%;    
+  
+    
+    }
+
+
+    #container_tasks li{
+        width: 100%;
+        list-style: none;
+        float: left;
+        padding: 10px; 
+        border-bottom: 1px solid #ccc;
+        background-color: #FFF;
+    }
+
+    #container_tasks .checkbox {
+        float: left;
+        width: 5%;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #container_form .correct{
+
+        width: auto;        
+        margin: 0;
+        padding: 0;
+        color:rgb(255, 255, 255);
+        
+    }
+
+
+
+    #container_tasks p{
+        width: 50%;
+        float: left;
+        margin-top: 10px;
+        
+        
+    }
+
+    #container_tasks button{
+        width: auto;
+        padding: 2px 6px;      
+        color: #FFF;
+        margin-right: 5px;
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+        float: right;  
+        
+        background-color: rgb(23, 125, 221);
+    }
+
+    #container_tasks button:hover{
+        background-color: rgb(47, 148, 241);
+    }
+
+    #container .delete{
+
+        background-color: rgb(221, 39, 39);
+    }
+
+    #container .delete:hover{
+        background-color: rgb(245, 78, 78);
+    }
+
+    #container span{
+        width: auto;
+        float: right;
+    }
+    
+   
+}/*END*/
+
+
+
+/*==========================================*/
+/*==========================================*/
+/*==========================================*/
+
+
+@media screen and (max-width: 640px){ 
+
+
+    #main{
+        width: 100vw;
+        height: 100vh;
+        background: #6C7A89;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #container{
+        width: 380px;        
+        border-radius: 8px ;
+        background: rgb(77, 9, 204);
+    }
+
+    #container h1{
+        width: 80%;
+        padding: 10px;
+        color: #FFF;
+      
+        
+        
+    }
+
+    #container form{
+        width: 96.0%;
+        padding: 10px;        
+      
+    }
+
+    #container input{
+        width: 70%;
+        padding: 10px;        
+        margin-top: 30px;
+        border: 0;
+        border-radius: 8px ;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #FFF;
+    }
+
+    #container .btn{
+        width: 22%;
+        padding: 10px;        
+        margin-top: 30px;
+        float: right; 
+        border: 0;
+        border-radius: 8px ;
+        cursor: pointer;
+        font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #FFF;
+        background-color:rgb(32, 2, 114)
+    }
+
+    #container_tasks{
+        width:96.6%;    
+      
+        
+        }
+    
+    
+        #container_tasks li{
+            width: 100%;
+            list-style: none;
+            float: left;
+            padding: 10px 7px 10px 6px; 
+            border-bottom: 1px solid #ccc;
+            background-color: #FFF;
+        }
+    
+        #container_tasks .checkbox {
+            float: left;
+            width: 5%;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+
+        #container_form .correct{
+
+            width: auto;        
+            margin: 0;
+            padding: 0;
+            color:rgb(255, 255, 255);
+            
+        }
+    
+    
+    
+        #container_tasks p{
+            width: 50%;
+            float: left;
+            margin-top: 10px;
+            
+            
+        }
+    
+        #container_tasks button{
+            width: auto;
+            padding: 2px 6px;      
+            color: #FFF;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 0;
+            border-radius: 4px;
+            float: right;  
+            
+            background-color: rgb(23, 125, 221);
+        }
+    
+        #container_tasks button:hover{
+            background-color: rgb(47, 148, 241);
+        }
+    
+        #container .delete{
+    
+            background-color: rgb(221, 39, 39);
+        }
+    
+        #container .delete:hover{
+            background-color: rgb(245, 78, 78);
+        }
+    
+        #container span{
+            width: auto;
+            float: right;
+        }
+    
+
+    
+}/*END*/
+
+
